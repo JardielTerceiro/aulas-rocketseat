@@ -5,7 +5,7 @@
 }
 :root {
   --text-color: white;
-  --bg-color: url(assets/bg-mobile.jpg);
+  --bg-url: url(assets/bg-mobile.jpg);
   --stroke-color: rgb(255, 255, 255, 0.5); /* border-color */
   --surface-color: rgb(255, 255, 255, 0.1); /* border-color */
   --surface-color-hover: rgb(255, 255, 255, 0.05); /* border-color Hover */
@@ -25,7 +25,7 @@
 
 body {
   /* Background: color image repeat position/size */
-  background: var(--bg-color) no-repeat top center/cover;
+  background: var(--bg-url) no-repeat top center/cover;
 }
 body * {
   font-family: "Inter", serif;
