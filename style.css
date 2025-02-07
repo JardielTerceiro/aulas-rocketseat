@@ -33,7 +33,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%px;
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -75,10 +76,9 @@ body * {
   left: 0;
   z-index: 1;
   transform: translateY(-50%);
- 
 }
 
-.light #swith button{
+.light #swith button {
   right: 0;
   left: initial;
 }
