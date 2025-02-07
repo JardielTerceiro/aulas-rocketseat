@@ -83,6 +83,9 @@ body * {
 .light #swith button {
   animation: slider-in 0.4s forwards;
 }
+#swith button:hover {
+  outline: 8px solid var(--highlight-color);
+}
 
 #swith span {
   display: block;
